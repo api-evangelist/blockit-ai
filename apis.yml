@@ -1,25 +1,81 @@
 aid: blockit-ai
+
 name: Blockit AI
-description: 'Blockit AI is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by sequoia-capital) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.blockit.com/assets/og-blockit.png
+
+description: 'Blockit AI provides an AI‑powered scheduling assistant that automates calendar management, meeting coordination, and time‑zone handling for individuals and teams. Leveraging natural language understanding, Blockit can parse conversational requests, suggest optimal meeting times, and integrate with major calendar platforms. The service targets productivity‑focused users and enterprises seeking to reduce the friction of scheduling, offering a free tier and paid plans with advanced features such as team collaboration, analytics, and custom integrations. Backed by Sequoia Capital, Blockit aims to become the go‑to virtual assistant for time management.'
+
 url: https://raw.githubusercontent.com/api-evangelist/blockit-ai/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- AI
+- Scheduling
+- Productivity
+- Calendar
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- sequoia-capital
+
 common:
+- type: LLMsTxt
+  url: llms/blockit-ai-llms.txt
+- type: SecurityTxt
+  url: well-known/blockit-ai-security-security.txt
+- type: WellKnown
+  url: well-known/blockit-ai-well-known.yml
+- type: Hosts
+  url: hosts/blockit-ai-hosts.yml
+- type: Vendors
+  url: vendors/blockit-ai-vendors.yml
+- type: DomainSecurity
+  url: security/blockit-ai-domain-security.yml
 - type: Website
   url: https://www.blockit.com
+- type: Documentation
+  url: https://www.blockit.com
+- type: Blog
+  url: https://www.blockit.com/blog
+- type: TermsOfService
+  url: https://www.blockit.com/terms
+- type: PrivacyPolicy
+  url: https://www.blockit.com/privacy
+- type: Support
+  url: https://www.blockit.com/contact
+
+apis: []
+
+x-backed-by:
+- sequoia-capital
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's website does not expose any machine‑readable API specification.
+  evidence:
+    - url: https://www.blockit.com
+      status: 200
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 18
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

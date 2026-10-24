@@ -1,0 +1,81 @@
+# Blockit
+
+> Blockit is an AI scheduling agent. CC it on any email or Slack thread and it reads the thread, proposes times, handles time zones and conflicts, and sends the invite — then reschedules itself when plans change. When both sides use Blockit, the meeting autoblocks in seconds instead of days.
+
+Blockit is made by Blockit AI, Inc. (San Francisco, CA). It is a scheduling
+agent, not a booking-link tool: you do not send anyone a link to pick a slot. You CC
+`bot@blockit.com` on an email or Slack thread and the agent negotiates the meeting in the
+thread, in your voice, then puts it on the calendar.
+
+- One-line pitch: Never touch your calendar again.
+- Works with: Google Calendar, Microsoft/Outlook calendar, Zoom, Google Meet, Microsoft Teams, Slack
+- Pricing: 30-day free trial, no credit card required
+- Security: SOC 2 Type II; encryption at rest and in transit; granular calendar permissions
+
+## Pages
+
+- [Home](https://www.blockit.com/): CC Blockit on any email or Slack thread and it negotiates the times, handles the time zones and sends the invite. Google and Outlook. 30-day free trial.
+- [Blockit for Slack](https://www.blockit.com/blockit-for-slack): Add Blockit to Slack and message it like texting an assistant: it books, reschedules, and coordinates meetings right in your channels and group DMs. 30-day free trial.
+- [Blockit for Zoom](https://www.blockit.com/blockit-for-zoom): Connect Zoom once and Blockit adds a Zoom link to the invites for the video meetings it books. Zoom for Admin, which covers a whole team with one connection, is in private beta.
+- [Time Zone Converter](https://www.blockit.com/time-zones): Free world clock and meeting planner. Line up cities by the hour and see one moment in every time zone, with daylight saving handled per city.
+- [Epoch Converter](https://www.blockit.com/epoch): Free Unix timestamp converter that shows the current Unix timestamp live, with code for getting it in JavaScript, Python, Go, Java, SQL and more. Paste a timestamp in seconds, milliseconds, microseconds or nanoseconds, an ISO 8601 date or a MongoDB ObjectId and read it in every format and time zone.
+- [Blog](https://www.blockit.com/blog): Notes from the time cult: product, research and company writing from the team building the calendar network.
+- [Contact](https://www.blockit.com/contact): Questions, bug reports, privacy requests or a demo. A human reads every message at support@blockit.com, typically answered the same business day.
+- [Legal](https://www.blockit.com/legal): Every Blockit agreement and policy in one place — Terms of Service, Enterprise Agreement, Data Processing Addendum, Privacy Notice, subprocessors and security — with effective dates and an archive of superseded versions.
+- [Privacy Notice](https://www.blockit.com/privacy): How Blockit collects, uses and protects your data. Blockit reads only what it needs to schedule, and never mixes data between calendars. Last updated June 15, 2026.
+- [Terms of Service](https://www.blockit.com/terms): The terms that govern your use of Blockit, including subscriptions, cancellation and acceptable use. Last updated July 29, 2026.
+- [Enterprise Agreement](https://www.blockit.com/enterprise-agreement): The master agreement for enterprise customers — service commitments, term and renewal, confidentiality, and liability.
+- [Data Processing Addendum](https://www.blockit.com/dpa): How Blockit processes personal data on behalf of enterprise customers, and the terms that govern that processing.
+
+## Product
+
+- **Crawl — Forward a thread. Get an invite.** The time is already agreed — you just have not written the invite. Forward the thread to Blockit and the invite goes out, titled, described, with the right people and a link attached.
+- **Walk — CC it, and keep the last word.** Blockit is in the thread live. It reads the replies, proposes times, handles the time zones — and checks with you before anything lands on a calendar.
+- **Run — Let it run while you are gone.** No check-ins. Blockit works through your back-to-backs and overnight, resolving threads in the hours you were never going to answer anyway.
+
+## What it handles
+
+- Reads email and Slack threads and negotiates meeting times end to end
+- Google Calendar and Microsoft/Outlook calendar support
+- Zoom, Google Meet and Microsoft Teams conferencing links
+- Group scheduling with required vs optional attendees, reading colleagues’ free/busy
+- Time zone handling, travel time, and buffer blocks
+- Autoblocking: instant booking when both sides are on Blockit
+- Saved meeting templates, standing preferences and remembered rules
+- Automatic rescheduling on declines, delays and changes of plan
+- Per-person and per-meeting-type autonomy levels, from review-everything to full autopilot
+- Custom sending domain (blockit@yourfirm.com) for teams
+- SOC 2 Type II, encryption at rest and in transit, granular calendar permissions
+
+## FAQ
+
+### Can I approve invites before they send?
+
+Yes. Choose your autonomy level — from review-everything to full autopilot — and change it anytime, per person or per meeting type.
+
+### Does Blockit work with Outlook and Teams?
+
+Yes. Google and Microsoft calendars, Zoom, Meet, and Teams links, and Slack. Connect as many calendars as you want; Blockit respects all of them without mixing data between them.
+
+### Can Blockit use our company's domain?
+
+Yes. Teams can run Blockit from their own address — blockit@yourfirm.com — so every external touchpoint carries your brand, not ours.
+
+### Can my EA work with Blockit?
+
+Yes. Blockit doesn't replace great EAs — it takes the scheduling grind off their plate so they can run the higher-order work. Executives keep their own agent; assistants keep visibility.
+
+### Can Blockit handle group scheduling?
+
+Very well. It factors in the free/busy status of colleagues on the thread — and when attendees are also on Blockit, the meeting autoblocks instantly.
+
+### Can I try it free?
+
+30 days, no credit card. CC it on one thread and see.
+
+## Optional
+
+- [Full site text](https://www.blockit.com/llms-full.txt): every page's copy, testimonials and press in one file.
+- [Log in](https://app.blockit.com/)
+- [Start a free trial](https://app.blockit.com/signup)
+- [Book a demo](https://app.blockit.com/book-demo)
